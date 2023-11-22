@@ -21,7 +21,16 @@
 		"vscode": {
 			// Set *default* container specific settings.json values on container create.
 			"settings": {
-				"python.defaultInterpreterPath": "/home/vscode/venv/bin/python"
+				"python.defaultInterpreterPath": "/home/vscode/venv/bin/python",
+				"editor.wordWrap": "on",
+				"editor.fontSize": 16,
+				"editor.defaultFormatter": "charliermarsh.ruff",
+				"editor.formatOnSaveMode": "modificationsIfAvailable",
+				"editor.formatOnType": true,
+				"editor.rulers": [ 80 ],
+				"gitlens.showWhatsNewAfterUpgrades": false,
+				"gitlens.showWelcomeOnInstall": false,
+				"workbench.colorTheme": "Default Light Modern"
 			},
 
 			// Add the IDs of extensions you want installed when the container is created.
@@ -29,7 +38,13 @@
 				"ms-python.python",
 				"ms-python.vscode-pylance",
 				"ms-python.black-formatter",
-				"ms-toolsai.jupyter"
+				"ms-toolsai.jupyter",
+				"vsls-contrib.gitdoc",
+				"eamodio.gitlens",
+				"oderwat.indent-rainbow",
+				"yzhang.markdown-all-in-one",
+				"charliermarsh.ruff",
+				"usernamehw.errorlens"
 			]
 		}
 	},
